@@ -1,0 +1,293 @@
+/*清除浏览器样式*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei UI";
+    font-size: 14px;
+}
+body{
+    min-width: 670px;
+}
+.clean {
+    clear: both;
+}
+
+/*header start*/
+header {
+    width: 100%;
+    background: -webkit-linear-gradient(#040000, #000023); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#040000, #000023); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#040000, #000023); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#040000, #000023); /* 标准的语法 */
+}
+
+header .logo {
+    float: left;
+    margin-left: 40px;
+
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 20px;
+    line-height: 60px;
+
+}
+
+header nav ul li a {
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #959595;
+}
+
+/*header end*/
+
+/*---------------------------------------------------------------*/
+
+/*footer start*/
+footer {
+
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: -webkit-linear-gradient(#040000, #000023); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#040000, #000023); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#040000, #000023); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#040000, #000023); /* 标准的语法 */
+    color: #cccccc;
+}
+
+/*footer end*/
+
+/*---------------------------------------------------------------*/
+/*article start*/
+article {
+    background: #aaaaaa;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+article .side {
+    width: 360px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+    margin: 20px;
+    -webkit-box-shadow: 5px 5px 5px #252424;
+    -moz-box-shadow: 5px 5px 5px #252424;
+    box-shadow: 5px 5px 5px #252424
+}
+
+article .content {
+    height: auto;
+    /*padding: 20px;*/
+    margin-right: 420px;
+    min-width: 240px;
+
+}
+
+article .content .first {
+    background: #fff;
+    -webkit-box-shadow: 5px 5px 5px #252424;
+    -moz-box-shadow: 5px 5px 5px #252424;
+    box-shadow: 5px 5px 5px #252424;
+    padding-bottom: 40px;
+
+}
+
+article .content .second {
+    background: #fff;
+    margin-top: 15px;
+    -webkit-box-shadow: 5px 5px 5px #252424;
+    -moz-box-shadow: 5px 5px 5px #252424;
+    box-shadow: 5px 5px 5px #252424;
+    padding-bottom: 40px;
+}
+
+article .content .third {
+    background: #fff;
+    margin-top: 15px;
+    -webkit-box-shadow: 5px 5px 5px #252424;
+    -moz-box-shadow: 5px 5px 5px #252424;
+    box-shadow: 5px 5px 5px #252424;
+    padding-bottom: 40px;
+}
+
+article .content .photo {
+    background: #fff;
+    margin-top: 15px;
+    -webkit-box-shadow: 5px 5px 5px #252424;
+    -moz-box-shadow: 5px 5px 5px #252424;
+    box-shadow: 5px 5px 5px #252424;
+    padding-bottom: 40px;
+}
+
+article .content h1 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+article .content h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+article .content h3 {
+    font-size: 15px;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+article .content img {
+    padding-left: 10px;
+}
+
+article .content p, ul, ol {
+    padding-left: 10px;
+}
+
+article .content .start {
+    text-indent: 2em;
+}
+
+article .content ul {
+    list-style-type: none;
+}
+
+article .content ul li {
+    margin: 5px;
+}
+
+article .content .photo ul li {
+    text-align: center;
+    width: 150px;
+    border: 1px solid #252424;
+    float: left;
+}
+
+article .content .photo img {
+    text-align: center;
+    padding-left: 0px
+}
+
+article .content .third ol {
+    padding-left: 40px;
+    margin: 10px;
+}
+
+article .content .third table {
+    margin: 15px;
+}
+
+article .content .third table th {
+    padding: 8px;
+    border: 0px solid #666666;
+    background-color: #373636;
+    width: 200px;
+    color: #fff;
+}
+
+article .content .third table tr {
+    padding: 8px;
+    height: 30px;
+}
+
+article .content .third table .total {
+    background-color: #dedede;
+}
+
+article .side .title {
+    height: 40px;
+    border-left: 2px solid #959595;
+}
+
+article .side h1 {
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 15px;
+}
+
+article .side .form_input {
+    margin-top: 20px;
+    line-height: 16px;
+}
+
+article .side .form_input label {
+    float: left;
+    width: 35%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+
+article .side .form_input input[type="text"], input[type="password"],select {
+    border: 1px solid #DADADA;
+    color: #888;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    font-size: 12px;
+    line-height: 15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+article .side .form_input span{
+    margin-left:  37.5%;
+    margin-top: 10px;
+    color: #888;
+
+}
+
+article .side .form_input input[type="radio"], input[type="checkbox"]{
+    display: inline-block;
+    outline: 0 none;
+    margin-top: 11px;
+}
+textarea {
+    padding: 5px 3px 3px 5px;
+}
+
+article .side .form_input input[type="submit"]{
+    margin-left: 13%;
+    display: block;
+    width: 260px;
+    height: 40px;
+    background: #245295;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+    color: #cccccc;
+    font-weight: bold;
+
+
+}
+
+/*article end*/
