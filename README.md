@@ -8,7 +8,7 @@
 4. 完成你选择的任务。
 5. 最后PR
 
-[任务链接](tp://ife.baidu.com/task/all)
+[任务链接](http://ife.baidu.com/task/all)
 
 ### [web前端规范](http://www.jianshu.com/p/8d291d823cc0)
 
