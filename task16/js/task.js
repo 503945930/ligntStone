@@ -40,6 +40,7 @@ function addAqiData() {
 
 
     aqiData[name] = value
+    renderAqiList();
     // console.log(aqiData)
 
 }
@@ -69,7 +70,7 @@ function renderAqiList() {
  */
 function addBtnHandle() {
     addAqiData();
-    renderAqiList();
+
 }
 
 /**
