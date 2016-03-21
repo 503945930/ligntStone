@@ -1,0 +1,14 @@
+/*清除浏览器样式*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei UI";
+    font-size: 14px;
+}
+body{
+    min-width: 670px;
+}
+.clean {
+    clear: both;
+}
+

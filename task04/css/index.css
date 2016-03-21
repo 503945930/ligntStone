@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*垂直居中*/
+.content {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: #ccc;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+
+/*左上四分之一圆*/
+.content .lt {
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    -webkit-border-radius: 0 0 200px 0;
+    -moz-border-radius: 0 0 200px 0;
+    border-radius: 0 0 200px 0; /* 四个半径值分别是左上角、右上角、右下角和左下角 */
+}
+
+/*右下四分之一圆*/
+.content .rb {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    -webkit-border-radius: 200px 0 0 0;
+    -moz-border-radius: 200px 0 0 0;
+    border-radius: 200px 0 0 0; /* 四个半径值分别是左上角、右上角、右下角和左下角 */
+}
