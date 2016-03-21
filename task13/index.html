@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+</head>
+<body>
+
+<label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+<button id="button">确认填写</button>
+
+<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+<script type="text/javascript">
+
+    (function () {
+        /*
+         方法一
+         在注释下方写下代码
+         给按钮button绑定一个点击事件
+         在事件处理函数中
+         获取aqi-input输入的值，并显示在aqi-display中
+         */
+        document.getElementById("button").onclick = function () {
+            changeSpan();
+        }
+
+        /*
+         方法二
+         如果浏览器不支持 addEventListener() 方法, 可以使用 attachEvent() 方法替代。
+         */
+        /* var btn = document.getElementById("button");
+         if (btn.addEventListener) {
+         document.getElementById("button").addEventListener("click", function () {
+         changeSpan();
+         });
+         } else if (btn.attachEvent) {
+         document.getElementById("button").attachEvent("click", function () {
+         changeSpan();
+         });
+         }*/
+
+        /*
+         获取aqi-input输入的值，并显示在aqi-display中
+         */
+        function changeSpan() {
+            //判断是否为空或者多个空格
+            if (document.getElementById("aqi-input").value.trim() == "") {
+                document.getElementById("aqi-display").innerHTML = "尚无录入";
+                return
+            }
+            document.getElementById("aqi-display").innerHTML = document.getElementById("aqi-input").value
+        }
+
+
+    })();
+
+</script>
+</body>
+</html>
