@@ -22,7 +22,7 @@
 * [task14](http://503945930.github.io/ligntStone/task14/)
 * [task15](http://503945930.github.io/ligntStone/task15/)
 * [task16](http://503945930.github.io/ligntStone/task16/)
-
+* [task17](http://503945930.github.io/ligntStone/task17/)
 
 
 ######全面的课程内容，只为打造企业最需要的WEB前端工程师， 最新前端视频分享，请关注微信公众号“一起玩前端”或扫描二维码关注。
