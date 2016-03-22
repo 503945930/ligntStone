@@ -22,6 +22,7 @@
 * [task14](http://503945930.github.io/ligntStone/task14/)
 * [task15](http://503945930.github.io/ligntStone/task15/)
 * [task16](http://503945930.github.io/ligntStone/task16/)
+* [task17](http://503945930.github.io/ligntStone/task17/)
 
 
 
